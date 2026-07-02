@@ -1,2 +1,4 @@
 # TypicallyTrueRandomNumberGeneratorForModernCPlusPlus
-Typical methods for generating random numbers are overcomplicated, yet they may not even act very random.  As an alternative, the simple method coded here gives you a different set of numbers for each run, without requiring any concocted seed value.  It’s also much faster than typical random number generator functions.
+Small, fast, typically true random number generator for modern C++
+
+Most methods for generating random numbers don’t act very random.  Many of them won’t necessarily even dish out a different set of numbers for each run.  Their performance usually isn’t optimal, either.  This native code random number generator provides cross-platform interoperability to a high-performance method for deriving typically true random numbers based on the system clock.  Its design and history, plus common use cases, are described at https://developforperformance.com/RandomTreatmentForRandomData.html.
